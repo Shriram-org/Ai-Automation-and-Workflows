@@ -1,22 +1,24 @@
-<!-- ============================= -->
-<!-- AI Automation & Workflow Marketplace -->
-<!-- Production-grade n8n Repository -->
-<!-- ============================= -->
 <div align="center" style="display:flex; justify-content:center; align-items:center; gap:20px;">
   <img src="https://github.com/shriram7057/shriram7057/blob/main/N8N%203d.png?raw=true" height="200" />
-  <img src="https://github.com/shriram7057/shriram7057/blob/main/N8N%20Ani.gif?raw=true" height="200" />
 </div>
+<!-- ========================================================= -->
+<!-- AI Automation & Workflow Marketplace (ENTERPRISE + ADVANCED) -->
+<!-- Built with n8n | AI Agents | SaaS | RAG | CI/CD | Marketplace -->
+<!-- ========================================================= -->
+
 <h1 align="center">🤖 AI Automation & Workflow Marketplace</h1>
 
 <p align="center">
-  <strong>Enterprise-grade n8n automations for AI, SaaS, DevOps, Marketing & Data</strong>
+  <strong>Enterprise + Advanced n8n automations for AI, SaaS, DevOps, CRM, Billing & Data</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/n8n-automation-orange" />
+  <img src="https://img.shields.io/badge/n8n-Automation-orange" />
   <img src="https://img.shields.io/badge/AI-Agents-blue" />
+  <img src="https://img.shields.io/badge/RAG-Ready-purple" />
+  <img src="https://img.shields.io/badge/SaaS-Multi--Tenant-success" />
+  <img src="https://img.shields.io/badge/Workflows-70%2B-brightgreen" />
   <img src="https://img.shields.io/badge/Status-Production--Ready-green" />
-  <img src="https://img.shields.io/badge/Templates-55%2B-success" />
   <img src="https://img.shields.io/badge/License-MIT-black" />
 </p>
 
@@ -25,20 +27,28 @@
 <h2>🚀 Overview</h2>
 
 <p>
-This repository is a <strong>production-ready AI automation marketplace</strong> built on 
-<strong>n8n</strong>. It is structured and implemented as if shipped by a professional
-automation company.
+This repository is a <strong>full-scale AI automation marketplace</strong> built on
+<strong>n8n</strong>, designed exactly like a professional automation company would ship.
 </p>
+
+<p>
+It combines:
+</p>
+
+<ul>
+  <li><strong>Enterprise Core Automations</strong> – business, SaaS, DevOps, marketing, data</li>
+  <li><strong>Advanced Automation Layer</strong> – AI agents, RAG, Stripe billing, CRM, CI/CD</li>
+</ul>
 
 <p>
 All workflows are:
 </p>
 
 <ul>
-  <li>✅ Real, importable n8n JSON files</li>
+  <li>✅ Real & importable n8n JSON files</li>
   <li>✅ Webhook-first & API-driven</li>
   <li>✅ Modular, scalable, and future-proof</li>
-  <li>✅ Suitable for SaaS products, agencies, and enterprises</li>
+  <li>✅ Ready for SaaS, agencies, and enterprises</li>
 </ul>
 
 <hr/>
@@ -46,13 +56,16 @@ All workflows are:
 <h2>📦 What’s Included</h2>
 
 <ul>
-  <li><strong>55+ Enterprise-grade workflows</strong></li>
-  <li><strong>AI Agents & OpenAI automations</strong></li>
-  <li><strong>SaaS boilerplate workflows</strong></li>
-  <li><strong>DevOps monitoring & alerts</strong></li>
-  <li><strong>Marketing & CRM pipelines</strong></li>
-  <li><strong>ETL & data engineering flows</strong></li>
-  <li><strong>Marketplace-ready templates</strong></li>
+  <li>70+ production-grade workflows</li>
+  <li>AI agents with memory & RAG support</li>
+  <li>SaaS boilerplate automations</li>
+  <li>Stripe billing & subscription flows</li>
+  <li>CRM pipelines with AI scoring</li>
+  <li>Monitoring, alerts & DevOps workflows</li>
+  <li>Error-handling & retry patterns</li>
+  <li>Multi-tenant SaaS routing</li>
+  <li>Architecture diagrams & CI/CD</li>
+  <li>Marketplace-ready templates</li>
 </ul>
 
 <hr/>
@@ -60,150 +73,226 @@ All workflows are:
 <h2>🗂 Repository Structure</h2>
 
 <pre>
-workflows/
-├── ai-agents/        → AI assistants, copilots, agents
-├── saas/             → Stripe, HubSpot, Notion, Airtable
-├── business/         → Slack alerts, approvals, HR flows
-├── devops/           → Uptime, deploy alerts, API health
-├── marketing/        → Lead capture, campaigns, analytics
-├── data/             → ETL, sync, cleanup pipelines
-├── monitoring/       → Incident alerts, status checks
-└── templates/        → Reusable marketplace templates
-</pre>
+workflows/                    (ENTERPRISE CORE)
+├── ai-agents/
+├── saas/
+├── business/
+├── devops/
+├── marketing/
+├── data/
+├── monitoring/
+└── templates/
 
-<p>
-Each workflow is isolated, clearly named, and designed for reuse.
-</p>
+advanced/                     (ADVANCED LAYER)
+├── ai-agents/
+├── rag/
+├── billing-stripe/
+├── crm/
+├── error-handling/
+└── multi-tenant-saas/
+
+docs/
+├── architecture/
+└── marketplace/
+
+ci-cd/
+└── github-actions.yml
+</pre>
 
 <hr/>
 
-<h2>🤖 AI Automation & Agents</h2>
+<h2>🤖 AI Agents & Intelligence Layer</h2>
 
 <p>
-AI workflows are built using <strong>OpenAI nodes</strong> and webhook triggers.
-They are designed to be extended into:
+The platform includes <strong>basic AI automations</strong> and a full
+<strong>advanced AI agent framework</strong>.
 </p>
 
+<h3>Capabilities</h3>
+<ul>
+  <li>Webhook-based AI agents</li>
+  <li>OpenAI / LLM reasoning</li>
+  <li>User & conversation memory (Redis-ready)</li>
+  <li>Tool-calling extensibility</li>
+  <li>RAG (Retrieval-Augmented Generation)</li>
+</ul>
+
+<h3>Use Cases</h3>
 <ul>
   <li>AI copilots</li>
   <li>Customer support bots</li>
   <li>Sales assistants</li>
-  <li>Content generation systems</li>
-  <li>Autonomous task agents</li>
-</ul>
-
-<p>
-The architecture supports future upgrades such as:
-</p>
-
-<ul>
-  <li>Tool calling</li>
-  <li>Memory (Redis / DB / Vector DB)</li>
-  <li>RAG (Retrieval-Augmented Generation)</li>
+  <li>Knowledge-base assistants</li>
+  <li>Internal AI tools</li>
 </ul>
 
 <hr/>
 
-<h2>🔌 SaaS & Business Automations</h2>
+<h2>📚 RAG (Retrieval-Augmented Generation)</h2>
 
 <p>
-This repository includes SaaS-ready patterns such as:
+RAG workflows allow AI to respond using <strong>external knowledge sources</strong>.
 </p>
 
 <ul>
-  <li>Stripe webhooks & billing triggers</li>
-  <li>HubSpot / CRM lead ingestion</li>
-  <li>Notion & Airtable syncs</li>
-  <li>Zendesk-style ticket intake</li>
-  <li>Slack-based approvals & notifications</li>
+  <li>Vector database search</li>
+  <li>Context injection</li>
+  <li>Grounded, factual responses</li>
 </ul>
 
 <p>
-These workflows are suitable for:
+Essential for enterprise AI and documentation search.
 </p>
-
-<ul>
-  <li>Startup backends</li>
-  <li>Internal tooling</li>
-  <li>Client automation services</li>
-  <li>White-label SaaS platforms</li>
-</ul>
 
 <hr/>
 
-<h2>📊 DevOps, Monitoring & Reliability</h2>
+<h2>💳 Stripe Billing & SaaS Automations</h2>
 
 <p>
-Production reliability is addressed with:
+Billing workflows handle:
 </p>
 
 <ul>
-  <li>Uptime monitoring workflows</li>
+  <li>Stripe webhooks</li>
+  <li>Subscription lifecycle events</li>
+  <li>Customer updates</li>
+  <li>Billing alerts</li>
+</ul>
+
+<p>
+Designed for <strong>SaaS products and paid automation platforms</strong>.
+</p>
+
+<hr/>
+
+<h2>📊 CRM & Business Pipelines</h2>
+
+<p>
+CRM workflows include:
+</p>
+
+<ul>
+  <li>Lead ingestion</li>
+  <li>CRM record creation</li>
+  <li>AI-powered lead scoring</li>
+  <li>Slack notifications & approvals</li>
+</ul>
+
+<p>
+Perfect for sales, marketing, and RevOps teams.
+</p>
+
+<hr/>
+
+<h2>⚙️ DevOps, Monitoring & Reliability</h2>
+
+<ul>
+  <li>Uptime monitoring</li>
   <li>API health checks</li>
-  <li>Incident & failure alerts</li>
-  <li>Scheduled cron-based checks</li>
-  <li>Slack-based observability</li>
+  <li>Workflow failure alerts</li>
+  <li>Incident notifications</li>
+  <li>Scheduled cron checks</li>
 </ul>
 
 <p>
-These workflows can be extended with PagerDuty, Opsgenie, email, or custom webhooks.
+These workflows bring <strong>production reliability</strong> to n8n.
 </p>
 
 <hr/>
 
-<h2>📈 Data & ETL Pipelines</h2>
+<h2>🛠 Error Handling & Retry Patterns</h2>
 
 <p>
-Data workflows follow a clean ETL pattern:
+Advanced reliability patterns include:
 </p>
 
 <ul>
-  <li><strong>Extract</strong> – APIs, CSVs, external services</li>
-  <li><strong>Transform</strong> – cleanup, mapping, enrichment</li>
-  <li><strong>Load</strong> – databases, sheets, analytics tools</li>
-</ul>
-
-<p>
-This makes the repository suitable for analytics, reporting, and ML pipelines.
-</p>
-
-<hr/>
-
-<h2>🏪 Template Marketplace Ready</h2>
-
-<p>
-This repository is intentionally structured to be:
-</p>
-
-<ul>
-  <li>✔ Sold on Gumroad</li>
-  <li>✔ Listed on GitHub Marketplace</li>
-  <li>✔ Used as a paid internal toolkit</li>
-  <li>✔ Delivered to enterprise clients</li>
-</ul>
-
-<p>
-Each workflow is:
-</p>
-
-<ul>
-  <li>One file</li>
-  <li>Import-ready</li>
-  <li>Clearly named</li>
-  <li>Reusable and extensible</li>
+  <li>Retry-safe HTTP calls</li>
+  <li>Graceful failure handling</li>
+  <li>Slack-based error alerts</li>
 </ul>
 
 <hr/>
 
-<h2>⚙️ How to Use</h2>
+<h2>🏢 Multi-Tenant SaaS Architecture</h2>
+
+<p>
+Multi-tenant workflows enable:
+</p>
+
+<ul>
+  <li>Tenant-based routing</li>
+  <li>Shared logic with isolation</li>
+  <li>White-label automation platforms</li>
+</ul>
+
+<hr/>
+
+<h2>📐 Architecture & Documentation</h2>
+
+<p>
+Architecture diagrams are included using <strong>Mermaid</strong> and render directly on GitHub.
+</p>
+
+<p>
+They document:
+</p>
+
+<ul>
+  <li>AI agent flows</li>
+  <li>SaaS integrations</li>
+  <li>Alerting & monitoring paths</li>
+</ul>
+
+<hr/>
+
+<h2>🔄 CI/CD & Quality Control</h2>
+
+<p>
+GitHub Actions are included to:
+</p>
+
+<ul>
+  <li>Validate all workflow JSON files</li>
+  <li>Prevent broken imports</li>
+  <li>Maintain enterprise quality</li>
+</ul>
+
+<hr/>
+
+<h2>🏪 Marketplace & Monetization Ready</h2>
+
+<p>
+This repository is designed for:
+</p>
+
+<ul>
+  <li>Gumroad paid products</li>
+  <li>GitHub Marketplace listings</li>
+  <li>Agency delivery</li>
+  <li>Enterprise clients</li>
+</ul>
+
+<p>
+You can sell this as:
+</p>
+
+<ul>
+  <li>Starter / Pro / Enterprise editions</li>
+  <li>Workflow packs</li>
+  <li>SaaS backend templates</li>
+</ul>
+
+<hr/>
+
+<h2>🚀 How to Use</h2>
 
 <ol>
-  <li>Clone or download this repository</li>
-  <li>Open your n8n instance</li>
-  <li>Select <strong>Import Workflow</strong></li>
-  <li>Upload any JSON file</li>
+  <li>Clone or download the repository</li>
+  <li>Open n8n</li>
+  <li>Import any workflow JSON</li>
   <li>Configure credentials</li>
-  <li>Activate 🚀</li>
+  <li>Activate and scale 🚀</li>
 </ol>
 
 <hr/>
@@ -211,10 +300,10 @@ Each workflow is:
 <h2>🔐 Security & Best Practices</h2>
 
 <ul>
-  <li>Credentials are not hard-coded</li>
-  <li>Webhook-based entry points</li>
-  <li>Modular, isolated workflows</li>
-  <li>Production-safe naming conventions</li>
+  <li>No credentials committed</li>
+  <li>Webhook-first architecture</li>
+  <li>Environment-based configuration</li>
+  <li>Production-safe workflow isolation</li>
 </ul>
 
 <hr/>
@@ -222,16 +311,20 @@ Each workflow is:
 <h2>🛣 Roadmap</h2>
 
 <ul>
-  <li>Advanced AI agents with tool calling</li>
-  <li>RAG + vector database integrations</li>
-  <li>Multi-tenant SaaS routing</li>
   <li>License-key enforcement</li>
-  <li>Paid workflow packs</li>
-  <li>CI/CD export pipelines</li>
+  <li>Tenant-based billing</li>
+  <li>Advanced AI tool-calling</li>
+  <li>Vector DB integrations</li>
+  <li>Observability dashboards</li>
 </ul>
 
-🤝 Let's Connect!
-<div align="center">
+<hr/>
+<p align="center">
+  <strong>Built for scale. Designed for SaaS. Ready to sell.</strong>
+</p>
+
+ 🤝 Let's Connect!
+<div align="left">
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shriram7057)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriram-lahane/)
@@ -241,8 +334,3 @@ Each workflow is:
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lahaneshriram2@gmail.com)
 
 </div>
-<hr/>
-<p align="center">
-<strong>Built for scale. Designed for production. Ready to sell.</strong>
-</p>
-
